@@ -1,0 +1,29 @@
+@media only screen and (max-width:768px) and (max-width:1024px){
+    .fa-bars{
+        opacity: 1;
+        
+    }
+    .text{
+        position: absolute;
+        top: 75px;
+        left: 30px;
+        background-color: #EA1A24;
+        width: 500px;
+        border: none;
+        padding: 5.2px 3px;
+    }
+    ::placeholder{
+        color: white
+    }
+    .fa-magnifying-glass{
+        position: absolute;
+        top: 75px;
+        left: 520px;
+        background-color: #EA1A24;
+        color: rgb(236, 238, 245);
+    }
+    .fa-shuffle{
+        display: none;
+    }
+
+}

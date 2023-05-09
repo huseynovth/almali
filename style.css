@@ -1,0 +1,100 @@
+.header{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+  
+}
+.container{
+    width: 1200px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.alma  img{
+    width: 100px;
+   
+}
+.input{
+   
+    display: flex;
+    align-items: center;
+}
+.text{
+    width: 280px;
+    border: 1px solid gray;
+    padding: 4.2px 3px;
+    font-size: 10px;
+
+}
+.icons{
+   
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 10px;
+    font-weight: lighter;
+}
+.fa-shuffle:hover{
+    color: grey;
+}
+.fa-bag-shopping:hover{
+    color: grey;
+}
+.fa-magnifying-glass{
+    background-color: red;
+    color: white;
+    padding: 7px; 
+    font-size: 8px;
+}
+.fa-magnifying-glass:hover{
+    background-color: brown;
+    transition: 1s;
+}
+.fa-bars{
+    opacity: 0;
+}
+.navbar{
+    display: none;
+}
+#tablet{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    opacity: 0;
+    background-color: #EA1A24;
+}
+
+.list{
+	flex: 1 1 0;
+	max-width: 300px;
+	padding: 2rem 1rem;
+	background-color: white;
+}
+.list .menu{
+	margin: 0 -1rem;
+}
+.list .menu .menu-item{
+	display: block;
+	transition: 0.2s linear;
+	padding: 1em;
+	color: black;
+    border: 1px solid black;
+	text-decoration: none;
+}
+.list .menu .menu-item:hover{
+    color: #EA1A24;
+}
+.menu-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    gap: 90px;
+}
+#arrow{
+    position: absolute;
+    left: 310px;
+
+}
